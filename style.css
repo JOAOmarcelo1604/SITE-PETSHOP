@@ -42,7 +42,7 @@ section{
     margin: 0px auto 0px auto;
     width: 75%;
     border-radius: 10px;
-    height: 2400px;
+    height: 2470px;
     float: left;
     left: 200px;
     background-color: rgba(65, 76, 235, 0.315);
@@ -64,7 +64,7 @@ section{
     margin: 0px auto 0px auto;
     width: 100%;
     background-color: #c0c0c0;
-    top: 2550px;
+    top: 2600px;
     margin-bottom: 25px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -248,7 +248,7 @@ table:hover{
   .article3{
     border-radius: 20px;
     padding-top: 10px;
-    height: 50px;
+    height: 150px;
     background-color: rgba(245, 242, 242, 0.685);
     box-shadow: 5px 5px 25px #8888888f;
     font-family: Arial, Helvetica, sans-serif;
@@ -257,11 +257,57 @@ table:hover{
   }
   .ima2{
     position: relative;
-    padding: 10px;
-    margin: 2px;
+    padding: 30px;
+    margin: 10px;
+    width: 200px;
     height: 200px;
-    top: 15px;
+    top: -10px;
     left: 10px;
-    border-radius: 60%;
+    border-radius: 50%;
   }
+  .imgraçao{
+    width: 220px;
+    height: 220px;
+}
+
+#h1{
+    position: absolute;
+    left: 50px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+#h2{
+    position: absolute;
+    left: 400px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+#h3{
+    position: absolute;
+    left: 750px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+#h4{
+   position: relative;
+    top: 60px;
+    
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 220px;
+}
+#inputsubmit{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: azure;
+}
 
